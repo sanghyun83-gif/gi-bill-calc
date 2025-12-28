@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { CALCULATORS, SITE } from "./site-config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = "https://fin-calc.vercel.app";
+    const baseUrl = "https://fin-calc-seven.vercel.app";
 
     // Generate calculator URLs from config
     const calculatorUrls = CALCULATORS.map((calc) => ({
