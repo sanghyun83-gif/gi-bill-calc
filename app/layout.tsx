@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "FinCalc | Free 1099 Self-Employment Tax Calculator 2025",
   description: "Calculate your 2025 self-employment taxes instantly. Free 1099 tax calculator for US freelancers with accurate IRS rates. SE tax, federal tax, and quarterly payments.",
   keywords: ["1099 tax calculator", "self employment tax calculator", "freelance tax calculator", "quarterly tax estimator", "SE tax 2025"],
+  verification: {
+    google: "qlPMVO_Hb-be3_hFHNT9SBbsHO-b_wCOfWfLmTb4EQc",
+  },
   openGraph: {
     title: "Free 1099 Tax Calculator 2025 | FinCalc",
     description: "Calculate SE tax, federal tax, and quarterly payments for freelancers.",
