@@ -14,6 +14,7 @@ export const SITE = {
     tagline: "Free Financial Calculators",
     description: "Free tax calculators for US freelancers and self-employed.",
     year: 2025,
+    baseUrl: "https://fin.mysmartcalculators.com",
 };
 
 // ============================================
