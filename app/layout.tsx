@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Script from "next/script";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+import { SITE } from "./site-config";
 
 const GA_MEASUREMENT_ID = "G-CLQYC4HRE3";
 const ADSENSE_ID = "ca-pub-6678501910155801";
@@ -13,15 +14,23 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "FinCalc | Free 1099 Self-Employment Tax Calculator 2025",
-  description: "Calculate your 2025 self-employment taxes instantly. Free 1099 tax calculator for US freelancers with accurate IRS rates. SE tax, federal tax, and quarterly payments.",
-  keywords: ["1099 tax calculator", "self employment tax calculator", "freelance tax calculator", "quarterly tax estimator", "SE tax 2025"],
+  title: `${SITE.name} | Free ${SITE.year} VA Education Benefits Estimator`,
+  description: SITE.description,
+  keywords: [
+    "gi bill calculator",
+    "post 9/11 gi bill calculator",
+    "montgomery gi bill calculator",
+    "va education benefits calculator",
+    "yellow ribbon calculator",
+    "veteran education benefits",
+    "gi bill housing allowance",
+  ],
   verification: {
     google: "qlPMVO_Hb-be3_hFHNT9SBbsHO-b_wCOfWfLmTb4EQc",
   },
   openGraph: {
-    title: "Free 1099 Tax Calculator 2025 | FinCalc",
-    description: "Calculate SE tax, federal tax, and quarterly payments for freelancers.",
+    title: `Free GI Bill Calculator ${SITE.year}`,
+    description: "Calculate your VA education benefits for Post-9/11, Montgomery, and Yellow Ribbon.",
     type: "website",
   },
 };
